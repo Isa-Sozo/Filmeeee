@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    align-items: center;
+    column-gap: 64px;
+    width: 100%;
+    max-width: 1440px;
+    padding-top: 24px;
+    list-style: none;
+    margin-left: 70px;
+    margin-top: -25px;
+}
+header img{
+    width: 300px;
+    height: auto;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+    list-style: none;
+}
+.navigation__link{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    list-style: none;
+}
+.navigation__link:hover{
+    color: var(--red)
+}
